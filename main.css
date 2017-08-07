@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=Iceland');
+
+body {
+  background: #ccccb3 !important;
+}
+
+#calculator {
+  max-width: 245px;
+  background: #b9b992;
+  margin-top: 10% !important;
+  margin: 0 auto;
+  padding: 15px;
+  border-top-left-radius: 40% 17px;
+border-top-right-radius: 40% 17px;
+border-bottom-left-radius: 40% 17px;
+border-bottom-right-radius: 40% 17px;
+box-shadow: 5px 5px 25px black;
+}
+
+h5{
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+#calculator button {
+  width: 40px;
+  height: 40px;
+  margin: 7px 5px;
+  border-top-left-radius: 40% 7px;
+border-top-right-radius: 40% 7px;
+border-bottom-left-radius: 40% 7px;
+border-bottom-right-radius: 40% 7px;
+  background: #1f1f14;
+  color: white;
+  font-weight: 700;
+  
+}
+
+.C {
+  background: #b30000 !important;
+}
+
+#plus {
+  position: absolute;
+  height: 93px !important;
+}
+
+#inp {
+  width: 203px;
+  height: 60px;
+  margin: 0 auto;
+  font-family: 'Iceland', cursive;
+  background: #ccccff;
+  margin-bottom: 15px;
+  text-align: right;
+  line-height: 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 1px 1px 5px black inset;
+
+}
+
+#up {
+  font-size: 30px;
+  padding: 15px 10px 5px 0;
+  
+}
+
+#down {
+  font-size: 20px;
+  padding: 0px 12px 10px 0px;
+  opacity: 0.6;
+}
